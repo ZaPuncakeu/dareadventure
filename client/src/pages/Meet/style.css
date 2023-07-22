@@ -1,0 +1,38 @@
+#meet {
+    width: 100%;
+    height: 100vh;
+    background-color: #272727;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(238, 248, 254);
+}
+
+#meet > .video-container {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#meet > div > h2 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+#partner {
+    height: 100%;
+    width: 100%;
+}
+
+#me {
+    top: 25px;
+    left: 25px;
+    width: 200px;
+    border-radius: 10px;
+    position: fixed;
+}

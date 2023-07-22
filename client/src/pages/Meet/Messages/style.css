@@ -1,0 +1,54 @@
+#messages {
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#messages > h1 {
+    color: rgb(26, 26, 26);
+}
+
+#messages > .texts {
+    flex: 0.9;
+    overflow: auto;
+    color: rgb(30, 30, 30);
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+#messages > .texts > p {
+    margin: 10px 0;
+    font-size: 0.8rem;
+}
+
+#messages > .input {
+    display: flex;
+    flex: 0.05;
+}
+
+#messages > .input > button {
+    width: 70px;
+    border: none;
+    border-top: solid black 1px;
+    border-right: solid black 1px;
+    border-bottom: solid black 1px;
+    background-color: #ED147D;
+    color: white;
+    cursor: pointer;
+}
+
+#messages > .input > input {
+    flex: 1;
+    border: none;
+    border-top: solid black 1px;
+    border-left: solid black 1px;
+    border-bottom: solid black 1px;
+    padding: 0px 10px;
+    outline: none;
+}
